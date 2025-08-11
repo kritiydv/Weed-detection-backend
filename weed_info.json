@@ -1,0 +1,602 @@
+{
+    
+  "carpetweeds": {
+    "details": "Low-growing annual weed forming dense mats, common in Indian agricultural fields.",
+    "eco_impact": "Competes with crops for nutrients and water, reduces yield.",
+    "growth_season": "Summer",
+    "precautions": "Remove early using manual or chemical methods to prevent spread.",
+    "organic_control": "Mulching, hand removal, crop rotation",
+    "herbicide_names": ["Glyphosate", "Pendimethalin"],
+    "affected_crops": ["Wheat", "Rice", "Sugarcane"],
+    "common_in_states": ["Punjab", "Madhya Pradesh", "Chhattisgarh"],
+    "image_urls": ["https://example.com/carpetweed.jpg"],
+    "language_translations": {
+      "name": {
+        "hi": "घास-पात"
+      },
+      "description": {
+        "hi": "यह एक वार्षिक घास है जो ज़मीन पर फैली रहती है और भारतीय कृषि क्षेत्रों में सामान्यतः पाई जाती है।"
+      },
+      "eco_impact": {
+        "hi": "यह फसलों के पोषक तत्वों और पानी के लिए प्रतिस्पर्धा करती है जिससे उपज में कमी आती है।"
+      },
+      "precautions": {
+        "hi": "प्रसार को रोकने के लिए इसे प्रारंभिक अवस्था में मैन्युअल या रासायनिक तरीकों से हटाएं।"
+      },
+      "organic_control": {
+        "hi": "मल्चिंग, हाथ से निकालना, फसल चक्र अपनाना।"
+      },
+      "growth_season": {
+        "hi": "गर्मी"
+      },
+      "affected_crops": {
+        "hi": ["गेहूं", "धान", "गन्ना"]
+      },
+      "common_in_states": {
+        "hi": ["पंजाब", "मध्य प्रदेश", "छत्तीसगढ़"]
+      },
+      "herbicide_names": {
+        "hi": ["ग्लाइफोसेट", "पेंडिमीथालिन"]
+      }
+    }
+  
+},
+"crabgrass": {
+  "details": "Annual grass weed with sprawling growth, thrives in warm conditions.",
+  "eco_impact": "Competes for light and nutrients, reduces crop vigor.",
+  "growth_season": "Summer and Monsoon",
+  "precautions": "Control before seed production to limit spread.",
+  "organic_control": "Hand weeding, mulching, soil aeration",
+  "herbicide_names": ["Atrazine", "Metolachlor"],
+  "affected_crops": ["Maize", "Cotton", "Rice"],
+  "common_in_states": ["Maharashtra", "Gujarat", "Tamil Nadu"],
+  "image_urls": ["https://example.com/crabgrass.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "क्रैबघास"
+    },
+    "description": {
+      "hi": "क्रैबघास एक वार्षिक घास की खरपतवार है जो गर्म मौसम में फैलती है और तेजी से बढ़ती है।"
+    },
+    "eco_impact": {
+      "hi": "प्रकाश और पोषक तत्वों के लिए फसलों से प्रतिस्पर्धा करती है, जिससे फसल की शक्ति घटती है।"
+    },
+    "precautions": {
+      "hi": "बीज उत्पादन से पहले नियंत्रण करें ताकि इसका प्रसार रोका जा सके।"
+    },
+    "organic_control": {
+      "hi": "हाथ से निराई, मल्चिंग और मिट्टी की हवा देना।"
+    },
+    "growth_season": {
+      "hi": "गर्मी और मानसून"
+    },
+    "affected_crops": {
+      "hi": ["मक्का", "कपास", "धान"]
+    },
+    "common_in_states": {
+      "hi": ["महाराष्ट्र", "गुजरात", "तमिलनाडु"]
+    },
+    "herbicide_names": {
+      "hi": ["एट्राजीन", "मेटोलाक्लोर"]
+    }
+  }
+},
+
+   "eclipta": {
+  "details": "Broadleaf annual weed, common in wet areas like rice fields.",
+  "eco_impact": "Competes for water and nutrients, impacts wetland crops.",
+  "growth_season": "Monsoon",
+  "precautions": "Remove before flowering to prevent seed dispersal.",
+  "organic_control": "Hand removal, flooding, crop rotation",
+  "herbicide_names": ["2,4-D", "Bispyribac-sodium"],
+  "affected_crops": ["Rice", "Soybean", "Vegetables"],
+  "common_in_states": ["West Bengal", "Odisha", "Assam"],
+  "image_urls": ["https://example.com/eclipta.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "भृंगराज"
+    },
+    "description": {
+      "hi": "भृंगराज एक चौड़ी पत्ती वाली वार्षिक खरपतवार है, जो आमतौर पर धान जैसे गीले खेतों में पाई जाती है।"
+    },
+    "eco_impact": {
+      "hi": "पानी और पोषक तत्वों के लिए फसलों से प्रतिस्पर्धा करती है, जिससे गीली फसलों पर प्रभाव पड़ता है।"
+    },
+    "precautions": {
+      "hi": "बीज फैलाव को रोकने के लिए फूल आने से पहले हटा दें।"
+    },
+    "organic_control": {
+      "hi": "हाथ से हटाना, खेत में बाढ़ लाना, फसल चक्रीकरण अपनाना।"
+    },
+    "growth_season": {
+      "hi": "मानसून"
+    },
+    "affected_crops": {
+      "hi": ["धान", "सोयाबीन", "सब्जियाँ"]
+    },
+    "common_in_states": {
+      "hi": ["पश्चिम बंगाल", "ओडिशा", "असम"]
+    },
+    "herbicide_names": {
+      "hi": ["2,4-डी", "बिस्पाइरिबैक-सोडियम"]
+    }
+  }
+},
+"goosegrass": {
+  "details": "Tough, tufted grass weed prevalent in warm climates, often in compacted soils.",
+  "eco_impact": "Reduces crop yield by competing for light and nutrients.",
+  "growth_season": "Summer and Monsoon",
+  "precautions": "Control before seed setting to prevent spread.",
+  "organic_control": "Hand weeding, soil aeration, organic mulches",
+  "herbicide_names": ["Atrazine", "Metolachlor"],
+  "affected_crops": ["Maize", "Cotton", "Soybean"],
+  "common_in_states": ["Maharashtra", "Gujarat", "Andhra Pradesh"],
+  "image_urls": ["https://example.com/goosegrass.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "गूसघास"
+    },
+    "description": {
+      "hi": "गूसघास एक मजबूत और गुच्छेदार घास है जो गर्म जलवायु और सघन मिट्टी में पनपती है।"
+    },
+    "eco_impact": {
+      "hi": "प्रकाश और पोषक तत्वों के लिए फसलों से प्रतिस्पर्धा करके उत्पादन में कमी लाती है।"
+    },
+    "precautions": {
+      "hi": "बीज बनने से पहले नियंत्रण करें ताकि इसका प्रसार न हो।"
+    },
+    "organic_control": {
+      "hi": "हाथ से निराई, मिट्टी की हवा देना, जैविक मल्च का उपयोग।"
+    },
+    "growth_season": {
+      "hi": "गर्मी और मानसून"
+    },
+    "affected_crops": {
+      "hi": ["मक्का", "कपास", "सोयाबीन"]
+    },
+    "common_in_states": {
+      "hi": ["महाराष्ट्र", "गुजरात", "आंध्र प्रदेश"]
+    },
+    "herbicide_names": {
+      "hi": ["एट्राजीन", "मेटोलाक्लोर"]
+    }
+  }
+},
+
+   "morningglory": {
+  "details": "Climbing annual weed with heart-shaped leaves, common in fields.",
+  "eco_impact": "Smothers crops, reducing sunlight and yield.",
+  "growth_season": "Summer and Monsoon",
+  "precautions": "Remove vines early to prevent crop entanglement.",
+  "organic_control": "Hand pulling, mulching, crop rotation",
+  "herbicide_names": ["Glyphosate", "Dicamba"],
+  "affected_crops": ["Soybean", "Cotton", "Maize"],
+  "common_in_states": ["Karnataka", "Telangana", "Madhya Pradesh"],
+  "image_urls": ["https://example.com/morningglory.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "मॉर्निंग ग्लोरी"
+    },
+    "description": {
+      "hi": "मॉर्निंग ग्लोरी एक बेल के रूप में बढ़ने वाली वार्षिक खरपतवार है जिसकी पत्तियाँ दिल के आकार की होती हैं और यह खेतों में आमतौर पर पाई जाती है।"
+    },
+    "eco_impact": {
+      "hi": "यह फसलों को ढक देती है जिससे सूर्य के प्रकाश में कमी आती है और उपज घटती है।"
+    },
+    "precautions": {
+      "hi": "फसलों में उलझाव से बचने के लिए बेलों को जल्दी हटा दें।"
+    },
+    "organic_control": {
+      "hi": "हाथ से उखाड़ना, मल्चिंग, फसल चक्रीकरण।"
+    },
+    "growth_season": {
+      "hi": "गर्मी और मानसून"
+    },
+    "affected_crops": {
+      "hi": ["सोयाबीन", "कपास", "मक्का"]
+    },
+    "common_in_states": {
+      "hi": ["कर्नाटक", "तेलंगाना", "मध्य प्रदेश"]
+    },
+    "herbicide_names": {
+      "hi": ["ग्लायफोसेट", "डिकाम्बा"]
+    }
+  }
+},
+"nutsedge": {
+  "details": "Perennial sedge with underground tubers, highly persistent.",
+  "eco_impact": "Competes aggressively for nutrients, difficult to eradicate.",
+  "growth_season": "Year-round, peaks in Monsoon",
+  "precautions": "Target tubers to prevent regrowth.",
+  "organic_control": "Deep plowing, solarization, crop rotation",
+  "herbicide_names": ["Halosulfuron", "Glyphosate"],
+  "affected_crops": ["Rice", "Sugarcane", "Vegetables"],
+  "common_in_states": ["Uttar Pradesh", "Bihar", "Tamil Nadu"],
+  "image_urls": ["https://example.com/nutsedge.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "मोथा"
+    },
+    "description": {
+      "hi": "मोथा एक बारहमासी खरपतवार है जो भूमिगत कंदों के साथ अत्यधिक दृढ़ता से बढ़ता है।"
+    },
+    "eco_impact": {
+      "hi": "यह पोषक तत्वों के लिए फसलों से तीव्र प्रतिस्पर्धा करता है, जिससे इसे हटाना मुश्किल होता है।"
+    },
+    "precautions": {
+      "hi": "पुनः वृद्धि रोकने के लिए कंदों को लक्षित करें।"
+    },
+    "organic_control": {
+      "hi": "गहरी जुताई, सौरकरण, फसल चक्रीकरण।"
+    },
+    "growth_season": {
+      "hi": "साल भर, मानसून में चरम पर"
+    },
+    "affected_crops": {
+      "hi": ["धान", "गन्ना", "सब्जियाँ"]
+    },
+    "common_in_states": {
+      "hi": ["उत्तर प्रदेश", "बिहार", "तमिलनाडु"]
+    },
+    "herbicide_names": {
+      "hi": ["हैलोसल्फ्यूरॉन", "ग्लायफोसेट"]
+    }
+  }
+},
+
+    "palmeramaranth": {
+  "scientific_name": "Amaranthus palmeri",
+  "harmful": true,
+  "precautions": "Remove before seed production due to high seed output.",
+  "details": "Fast-growing broadleaf weed, highly competitive and herbicide-resistant.",
+  "growth_season": "Summer",
+  "reproduction": "Seeds",
+  "can_regrow": true,
+  "removal_methods": "Manual weeding, integrated herbicide use",
+  "affected_crops": ["Soybean", "Cotton", "Maize"],
+  "common_in_states": ["Rajasthan", "Gujarat", "Madhya Pradesh"],
+  "eco_impact": "Reduces crop yield, potential for herbicide resistance.",
+  "herbicide_names": ["Glyphosate", "Mesotrione"],
+  "organic_control": "Hand removal, cover crops, mulching",
+  "image_urls": ["https://example.com/palmeramaranth.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "पामर चौलाई"
+    },
+    "description": {
+      "hi": "पामर चौलाई एक तेजी से बढ़ने वाली चौड़ी पत्ती वाली खरपतवार है जो अत्यधिक प्रतिस्पर्धी और शाकनाशी-प्रतिरोधी होती है।"
+    },
+    "eco_impact": {
+      "hi": "फसल की उपज को कम करती है और शाकनाशी प्रतिरोध विकसित कर सकती है।"
+    },
+    "precautions": {
+      "hi": "बीज उत्पादन से पहले निकाल दें क्योंकि यह बहुत अधिक बीज उत्पन्न करती है।"
+    },
+    "organic_control": {
+      "hi": "हाथ से निकालना, आवरण फसलें, मल्चिंग।"
+    },
+    "growth_season": {
+      "hi": "गर्मी"
+    },
+    "affected_crops": {
+      "hi": ["सोयाबीन", "कपास", "मक्का"]
+    },
+    "common_in_states": {
+      "hi": ["राजस्थान", "गुजरात", "मध्य प्रदेश"]
+    },
+    "herbicide_names": {
+      "hi": ["ग्लायफोसेट", "मेसोट्रिऑन"]
+    }
+  }
+},
+"pricklysida": {
+  "scientific_name": "Sida spinosa",
+  "harmful": true,
+  "precautions": "Wear gloves during manual removal due to spines.",
+  "details": "Annual broadleaf weed with prickly stems, common in dry areas.",
+  "growth_season": "Summer",
+  "reproduction": "Seeds",
+  "can_regrow": true,
+  "removal_methods": "Manual weeding, post-emergent herbicides",
+  "affected_crops": ["Cotton", "Soybean", "Maize"],
+  "common_in_states": ["Rajasthan", "Haryana", "Punjab"],
+  "eco_impact": "Competes for nutrients, can harbor pests.",
+  "herbicide_names": ["2,4-D", "Dicamba"],
+  "organic_control": "Hand pulling, mulching, crop rotation",
+  "image_urls": ["https://example.com/pricklysida.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "कांटेदार सीदा"
+    },
+    "description": {
+      "hi": "कांटेदार सीदा एक वार्षिक चौड़ी पत्ती वाली खरपतवार है जिसमें कांटेदार तने होते हैं, और यह सूखे क्षेत्रों में आमतौर पर पाई जाती है।"
+    },
+    "eco_impact": {
+      "hi": "पोषक तत्वों के लिए फसलों से प्रतिस्पर्धा करती है और कीटों को आश्रय दे सकती है।"
+    },
+    "precautions": {
+      "hi": "हाथ से हटाते समय दस्ताने पहनें क्योंकि इसमें कांटे होते हैं।"
+    },
+    "organic_control": {
+      "hi": "हाथ से उखाड़ना, मल्चिंग, फसल चक्र।"
+    },
+    "growth_season": {
+      "hi": "गर्मी"
+    },
+    "affected_crops": {
+      "hi": ["कपास", "सोयाबीन", "मक्का"]
+    },
+    "common_in_states": {
+      "hi": ["राजस्थान", "हरियाणा", "पंजाब"]
+    },
+    "herbicide_names": {
+      "hi": ["2,4-डी", "डिकाम्बा"]
+    }
+  }
+},
+"purslane": {
+  "scientific_name": "Portulaca oleracea",
+  "harmful": true,
+  "precautions": "Remove before seed set to prevent rapid spread.",
+  "details": "Succulent annual weed, thrives in warm, moist conditions.",
+  "growth_season": "Summer and Monsoon",
+  "reproduction": "Seeds, stem fragments",
+  "can_regrow": true,
+  "removal_methods": "Manual weeding, pre-emergent herbicides",
+  "affected_crops": ["Vegetables", "Soybean", "Cotton"],
+  "common_in_states": ["Karnataka", "Andhra Pradesh", "Tamil Nadu"],
+  "eco_impact": "Competes for water and nutrients, forms dense mats.",
+  "herbicide_names": ["Pendimethalin", "Oxyfluorfen"],
+  "organic_control": "Hand removal, mulching, solarization",
+  "image_urls": ["https://example.com/purslane.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "कुल्फा"
+    },
+    "description": {
+      "hi": "कुल्फा एक रसीला वार्षिक खरपतवार है जो गर्म और नम परिस्थितियों में तेजी से फैलता है।"
+    },
+    "eco_impact": {
+      "hi": "जल और पोषक तत्वों के लिए प्रतिस्पर्धा करता है, और घनी परत बना लेता है।"
+    },
+    "precautions": {
+      "hi": "तेज़ प्रसार को रोकने के लिए बीज बनने से पहले हटा दें।"
+    },
+    "organic_control": {
+      "hi": "हाथ से निकालना, मल्चिंग, सोलराइज़ेशन।"
+    },
+    "growth_season": {
+      "hi": "गर्मी और मानसून"
+    },
+    "affected_crops": {
+      "hi": ["सब्जियाँ", "सोयाबीन", "कपास"]
+    },
+    "common_in_states": {
+      "hi": ["कर्नाटक", "आंध्र प्रदेश", "तमिलनाडु"]
+    },
+    "herbicide_names": {
+      "hi": ["पेंडीमेथालिन", "ऑक्सीफ्लुओरफेन"]
+    }
+  }
+}
+,
+   "ragweed": {
+  "scientific_name": "Ambrosia artemisiifolia",
+  "harmful": true,
+  "precautions": "Control early to reduce pollen-related issues and seed spread.",
+  "details": "Annual broadleaf weed, known for causing allergies and competing with crops.",
+  "growth_season": "Summer",
+  "reproduction": "Seeds",
+  "can_regrow": false,
+  "removal_methods": "Manual weeding, post-emergent herbicides",
+  "affected_crops": ["Soybean", "Maize", "Wheat"],
+  "common_in_states": ["Uttar Pradesh", "Bihar", "Punjab"],
+  "eco_impact": "Reduces yield, produces allergenic pollen.",
+  "herbicide_names": ["Glyphosate", "2,4-D"],
+  "organic_control": "Hand pulling, mowing, crop rotation",
+  "image_urls": ["https://example.com/ragweed.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "रैगवीड"
+    },
+    "description": {
+      "hi": "रैगवीड एक वार्षिक चौड़ी पत्ती वाली खरपतवार है जो एलर्जी उत्पन्न करती है और फसलों से प्रतिस्पर्धा करती है।"
+    },
+    "eco_impact": {
+      "hi": "उपज को कम करती है और एलर्जिक पराग उत्पन्न करती है।"
+    },
+    "precautions": {
+      "hi": "पराग जनित समस्याओं और बीज फैलाव को रोकने के लिए प्रारंभ में नियंत्रण करें।"
+    },
+    "organic_control": {
+      "hi": "हाथ से उखाड़ना, घास काटना, फसल चक्र।"
+    },
+    "growth_season": {
+      "hi": "गर्मी"
+    },
+    "affected_crops": {
+      "hi": ["सोयाबीन", "मक्का", "गेहूं"]
+    },
+    "common_in_states": {
+      "hi": ["उत्तर प्रदेश", "बिहार", "पंजाब"]
+    },
+    "herbicide_names": {
+      "hi": ["ग्लायफोसेट", "2,4-डी"]
+    }
+  }
+}
+,
+    "sicklepod": {
+  "details": "Annual broadleaf weed with sickle-shaped pods, common in warm climates.",
+  "eco_impact": "Competes for nutrients and light, reduces crop yield.",
+  "growth_season": "Summer and Monsoon",
+  "precautions": "Remove before pod formation to limit seed dispersal.",
+  "organic_control": "Hand removal, mulching, cover crops",
+  "herbicide_names": ["Glyphosate", "Dicamba"],
+  "affected_crops": ["Soybean", "Cotton", "Maize"],
+  "common_in_states": ["Telangana", "Andhra Pradesh", "Karnataka"],
+  "image_urls": ["https://example.com/sicklepod.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "सिकलपॉड"
+    },
+    "description": {
+      "hi": "सिकलपॉड एक वार्षिक चौड़ी पत्ती वाला खरपतवार है जिसमें हँसिए के आकार की फलियाँ होती हैं और यह गर्म जलवायु में आम होता है।"
+    },
+    "eco_impact": {
+      "hi": "यह पोषक तत्वों और प्रकाश के लिए फसलों से प्रतिस्पर्धा करता है जिससे उपज में कमी आती है।"
+    },
+    "growth_season": {
+      "hi": "गर्मी और मानसून"
+    },
+    "precautions": {
+      "hi": "बीज फैलने से रोकने के लिए फली बनने से पहले हटाएं।"
+    },
+    "organic_control": {
+      "hi": "हाथ से हटाना, मल्चिंग, कवर फसलें"
+    },
+    "herbicide_names": {
+      "hi": ["ग्लाइफोसेट", "डाइकैम्बा"]
+    },
+    "affected_crops": {
+      "hi": ["सोयाबीन", "कपास", "मक्का"]
+    },
+    "common_in_states": {
+      "hi": ["तेलंगाना", "आंध्र प्रदेश", "कर्नाटक"]
+    }
+  }
+},
+
+   "spottedspurge": {
+  "details": "Low-growing annual weed with milky sap, common in disturbed soils.",
+  "eco_impact": "Competes for resources, sap can be toxic to livestock.",
+  "growth_season": "Summer",
+  "precautions": "Remove early to prevent milky sap from affecting crops or skin.",
+  "organic_control": "Hand pulling, mulching, crop rotation",
+  "herbicide_names": ["2,4-D", "Glyphosate"],
+  "affected_crops": ["Vegetables", "Soybean", "Cotton"],
+  "common_in_states": ["Maharashtra", "Gujarat", "Rajasthan"],
+  "image_urls": ["https://example.com/spottedspurge.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "दूधी"
+    },
+    "description": {
+      "hi": "दूधी एक नीची बढ़ने वाली वार्षिक खरपतवार है जिसमें सफेद दूधिया रस होता है और यह अधिकतर खराब या बंजर भूमि में उगती है।"
+    },
+    "eco_impact": {
+      "hi": "यह संसाधनों के लिए प्रतिस्पर्धा करती है और इसका दूधिया रस मवेशियों के लिए विषैला हो सकता है।"
+    },
+    "growth_season": {
+      "hi": "गर्मी"
+    },
+    "precautions": {
+      "hi": "फसल या त्वचा पर दूधिया रस के प्रभाव को रोकने के लिए शुरुआती अवस्था में ही हटा दें।"
+    },
+    "organic_control": {
+      "hi": "हाथ से उखाड़ना, मल्चिंग, फसल चक्र अपनाना"
+    },
+    "herbicide_names": {
+      "hi": ["2,4-डी", "ग्लाइफोसेट"]
+    },
+    "affected_crops": {
+      "hi": ["सब्ज़ियाँ", "सोयाबीन", "कपास"]
+    },
+    "common_in_states": {
+      "hi": ["महाराष्ट्र", "गुजरात", "राजस्थान"]
+    }
+  }
+},
+
+   "spurredanoda": {
+  "details": "Annual broadleaf weed with spurred flowers, common in warm regions.",
+  "eco_impact": "Competes for nutrients and water, reduces crop yield.",
+  "growth_season": "Summer",
+  "precautions": "Remove before flowering to prevent seed spread.",
+  "organic_control": "Hand pulling, mulching, crop rotation",
+  "herbicide_names": ["Glyphosate", "2,4-D"],
+  "affected_crops": ["Cotton", "Soybean", "Maize"],
+  "common_in_states": ["Gujarat", "Rajasthan", "Madhya Pradesh"],
+  "image_urls": ["https://example.com/spurredanoda.jpg"],
+  "language_translations": {
+    "name": {
+      "hi": "स्पर्ड अनोडा"
+    },
+    "description": {
+      "hi": "स्पर्ड अनोडा एक वार्षिक चौड़ी पत्ती वाला खरपतवार है जिसमें कांटेदार फूल होते हैं और यह गर्म क्षेत्रों में आमतौर पर पाया जाता है।"
+    },
+    "eco_impact": {
+      "hi": "यह पोषक तत्वों और पानी के लिए फसलों से प्रतिस्पर्धा करता है जिससे उत्पादन घटता है।"
+    },
+    "growth_season": {
+      "hi": "गर्मी"
+    },
+    "precautions": {
+      "hi": "बीज फैलाव को रोकने के लिए फूल आने से पहले ही हटाएं।"
+    },
+    "organic_control": {
+      "hi": "हाथ से उखाड़ना, मल्चिंग, फसल चक्र अपनाना"
+    },
+    "herbicide_names": {
+      "hi": ["ग्लाइफोसेट", "2,4-डी"]
+    },
+    "affected_crops": {
+      "hi": ["कपास", "सोयाबीन", "मक्का"]
+    },
+    "common_in_states": {
+      "hi": ["गुजरात", "राजस्थान", "मध्य प्रदेश"]
+    }
+  }
+},
+
+    "waterhemp": {
+  "name": {
+    "en": "Waterhemp",
+    "hi": "वाटरहैम्प"
+  },
+  "scientific_name": "Amaranthus tuberculatus",
+  "harmful": true,
+  "description": {
+    "en": "Tall, fast-growing broadleaf weed, prevalent in moist conditions.",
+    "hi": "ऊँची और तेजी से बढ़ने वाली चौड़ी पत्तियों वाली खरपतवार, जो नम क्षेत्रों में आम है।"
+  },
+  "precautions": {
+    "en": "Control early due to high seed production and herbicide resistance.",
+    "hi": "बीज उत्पादन अधिक और शाकनाशी प्रतिरोधकता के कारण इसे प्रारंभ में नियंत्रित करें।"
+  },
+  "growth_season": {
+    "en": "Summer and Monsoon",
+    "hi": "गर्मी और मानसून"
+  },
+  "reproduction": {
+    "en": "Seeds",
+    "hi": "बीज"
+  },
+  "can_regrow": true,
+  "removal_methods": {
+    "en": "Manual weeding, integrated herbicide use",
+    "hi": "हाथ से निकालना, एकीकृत शाकनाशी उपयोग"
+  },
+  "affected_crops": {
+    "en": ["Soybean", "Maize", "Cotton"],
+    "hi": ["सोयाबीन", "मक्का", "कपास"]
+  },
+  "common_in_states": {
+    "en": ["Uttar Pradesh", "Bihar", "Madhya Pradesh"],
+    "hi": ["उत्तर प्रदेश", "बिहार", "मध्य प्रदेश"]
+  },
+  "eco_impact": {
+    "en": "High seed output reduces crop yield, potential herbicide resistance.",
+    "hi": "अधिक बीज उत्पादन फसल की पैदावार को कम करता है और शाकनाशी प्रतिरोध की संभावना बढ़ाता है।"
+  },
+  "herbicide_names": ["Mesotrione", "Glyphosate"],
+  "organic_control": {
+    "en": "Hand removal, cover crops, mulching",
+    "hi": "हाथ से निकालना, आवरण फसलें, घास ढकना (मल्चिंग)"
+  },
+  "image_urls": [
+    "https://example.com/waterhemp.jpg"
+  ]
+}
+
+}

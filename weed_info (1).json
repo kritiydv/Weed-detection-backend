@@ -1,0 +1,79 @@
+{
+  "carpetweeds": {
+    "name_en": "Carpetweed",
+    "name_hi": "कार्पेटवीड",
+    "description_en": "Carpetweed is a fast-growing summer annual weed commonly found in gardens and crop fields.",
+    "description_hi": "कार्पेटवीड एक तेजी से बढ़ने वाली गर्मियों की वार्षिक खरपतवार है जो अक्सर बगीचों और खेतों में पाई जाती है।",
+    "harmfulness": "Moderate",
+    "precautions_en": "Use mulching and manual weeding to control its spread.",
+    "precautions_hi": "इसके प्रसार को रोकने के लिए मल्चिंग और हाथ से निराई करें।",
+    "common_areas": "North America, India, vegetable gardens, open fields.",
+    "growth_conditions": "Prefers disturbed soils, warm climates, and full sun."
+  },
+  "crabgrass": {
+    "name_en": "Crabgrass",
+    "name_hi": "क्रैबग्रास",
+    "description_en": "Crabgrass is a low-growing, summer annual grassy weed that competes with crops for nutrients.",
+    "description_hi": "क्रैबग्रास एक कम ऊँचाई पर उगने वाली गर्मियों की वार्षिक घास है जो फसलों से पोषक तत्व छीनती है।",
+    "harmfulness": "High",
+    "precautions_en": "Apply pre-emergent herbicides and maintain soil health.",
+    "precautions_hi": "पूर्व-उद्भव शाकनाशी और उचित मिट्टी देखभाल का उपयोग करें।",
+    "common_areas": "Lawns, roadsides, crop fields globally.",
+    "growth_conditions": "Thrives in hot, compacted soil with poor fertility."
+  },
+  "eclipta": {
+    "name_en": "Eclipta",
+    "name_hi": "भृंगराज",
+    "description_en": "Eclipta is a fast-growing weed that thrives in moist and poorly drained soils.",
+    "description_hi": "भृंगराज एक तेजी से बढ़ने वाली खरपतवार है जो नम और जलभराव वाली मिट्टी में उगती है।",
+    "harmfulness": "Moderate",
+    "precautions_en": "Improve drainage and use selective herbicides.",
+    "precautions_hi": "नाली व्यवस्था सुधारें और चयनात्मक शाकनाशी का प्रयोग करें।",
+    "common_areas": "Rice fields, wetlands in Asia.",
+    "growth_conditions": "Prefers wet, clayey soils and warm conditions."
+  },
+  "goosegrass": {
+    "name_en": "Goosegrass",
+    "name_hi": "गूजग्रास",
+    "description_en": "Goosegrass is a mat-forming grassy weed that reduces crop productivity.",
+    "description_hi": "गूजग्रास एक गट्ठर बनाकर उगने वाली घास है जो फसलों की उत्पादकता कम करती है।",
+    "harmfulness": "High",
+    "precautions_en": "Use pre-emergent herbicides and proper tillage.",
+    "precautions_hi": "पूर्व-उद्भव शाकनाशी और जुताई से नियंत्रण करें।",
+    "common_areas": "Lawns, agricultural fields, footpaths.",
+    "growth_conditions": "Loves compact, moist soil with direct sun exposure."
+  },
+  "morningglory": {
+    "name_en": "Morning Glory",
+    "name_hi": "मॉर्निंग ग्लोरी",
+    "description_en": "Morning Glory is a climbing vine weed that chokes crops by smothering them.",
+    "description_hi": "मॉर्निंग ग्लोरी एक बेलनुमा खरपतवार है जो फसलों को ढककर उनका विकास रोकता है।",
+    "harmfulness": "High",
+    "precautions_en": "Use physical removal and support structures for crops.",
+    "precautions_hi": "हाथ से हटाएं और फसलों के लिए सहारा बनाएं।",
+    "common_areas": "Farms, riverbanks, fences in warm climates.",
+    "growth_conditions": "Grows in fertile, moist soils with high sunlight."
+  },
+  "nutsedge": {
+    "name_en": "Nutsedge",
+    "name_hi": "नट्सएज",
+    "description_en": "Nutsedge is a persistent weed with tuber-based roots, hard to eliminate.",
+    "description_hi": "नट्सएज एक कठोर और गहरे मूलों वाली खरपतवार है जिसे हटाना कठिन होता है।",
+    "harmfulness": "Very High",
+    "precautions_en": "Use deep cultivation and selective herbicides.",
+    "precautions_hi": "गहरी जुताई और चयनात्मक शाकनाशी का प्रयोग करें।",
+    "common_areas": "Irrigated fields, lawns, ditches.",
+    "growth_conditions": "Prefers moist, overwatered soils and hot climates."
+  },
+  "palmeramaranth": {
+    "name_en": "Palmer Amaranth",
+    "name_hi": "पामर अमरांथ",
+    "description_en": "Palmer Amaranth is a highly aggressive weed that can resist herbicides.",
+    "description_hi": "पामर अमरांथ एक आक्रामक खरपतवार है जो शाकनाशियों का प्रतिरोध कर सकती है।",
+    "harmfulness": "Very High",
+    "precautions_en": "Crop rotation and multiple herbicide modes of action.",
+    "precautions_hi": "फसल चक्र और विभिन्न प्रकार के शाकनाशियों का प्रयोग करें।",
+    "common_areas": "Soybean, corn fields in North America and India.",
+    "growth_conditions": "Thrives in dry, fertile soil with full sun."
+  }
+}
