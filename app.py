@@ -82,14 +82,19 @@ def detect():
                 "image_urls": info.get("image_urls", [])
             })
 
+    backend_url = os.environ.get("BACKEND_URL", "http://localhost:5000")
+
     return jsonify({
-        "status": "success",
-        "lang": lang,
-        "annotated_image": result_path,
-        "detected_weeds": detected_weeds
-    })
+    "status": "success",
+    "lang": lang,
+    "backend_url": backend_url,
+    "annotated_image": f"{backend_url}/{result_path}",
+    "detected_weeds": detected_weeds
+})
+
 
 
 # Start Flask app
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
