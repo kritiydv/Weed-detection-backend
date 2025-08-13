@@ -1,55 +1,41 @@
 import os
 import json
+import torch
 import cv2
+import numpy as np
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from ultralytics import YOLO
 
-# =========================
 # Configuration
-# =========================
 UPLOAD_FOLDER = 'uploads'
 ANNOTATED_FOLDER = 'static'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
-# Backend URL: defaults to Render URL, can be overridden by env var
-BACKEND_URL = os.environ.get(
-    "BACKEND_URL",
-    "https://weed-detection-backend-3.onrender.com"
-)
-
-# =========================
-# Flask Setup
-# =========================
+# Setup Flask
 app = Flask(__name__)
 CORS(app)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(ANNOTATED_FOLDER, exist_ok=True)
 
-# =========================
-# Load Data & Model
-# =========================
+# Load weed knowledge base
 with open('weed_info.json', 'r', encoding='utf-8') as f:
     weed_info = json.load(f)
 
+# Load YOLOv8 model
 model = YOLO('best.pt')  # Replace with your model path
 
-# =========================
-# Helper Functions
-# =========================
+# Helper: check file extension
 def allowed_file(filename):
-    """Check if file has an allowed extension."""
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+# Helper: preprocess and infer
 def run_detection(image_path):
-    """Run YOLO detection on the given image."""
     results = model(image_path)[0]
     return results
 
-# =========================
-# Routes
-# =========================
+# Route: Weed detection with language toggle
 @app.route('/detect', methods=['POST'])
 def detect():
     if 'image' not in request.files:
@@ -59,22 +45,21 @@ def detect():
     if file.filename == '' or not allowed_file(file.filename):
         return jsonify({'error': 'Invalid file type'}), 400
 
-    lang = request.args.get('lang', 'hi')  # Default to Hindi
+    # Get requested language from query param; default to Hindi
+    lang = request.args.get('lang', 'hi')
 
     # Save uploaded image
     image_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
     file.save(image_path)
 
-    # Run detection
+    # Run YOLOv8 detection
     results = run_detection(image_path)
 
     # Save annotated image
     annotated_img = results.plot()
-    annotated_filename = f"result_{file.filename}"
-    result_path = os.path.join(ANNOTATED_FOLDER, annotated_filename)
+    result_path = os.path.join(ANNOTATED_FOLDER, f"result_{file.filename}")
     cv2.imwrite(result_path, annotated_img)
 
-    # Prepare detection results
     detected_weeds = []
     for box in results.boxes:
         cls_id = int(box.cls.item())
@@ -100,14 +85,13 @@ def detect():
     return jsonify({
         "status": "success",
         "lang": lang,
-        "backend_url": BACKEND_URL,
-        "annotated_image": f"{BACKEND_URL}/{result_path.replace(os.sep, '/')}",
+        "annotated_image": result_path,
         "detected_weeds": detected_weeds
     })
 
-# =========================
-# Main Entry Point
-# =========================
+
+# Start Flask app
 if __name__ == '__main__':
+     
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
